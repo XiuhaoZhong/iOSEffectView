@@ -3,25 +3,141 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94004D19263026BB00527460 /* PopupVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94004D18263026BB00527460 /* PopupVCManager.m */; };
+		945861B3266F1215004BEB0C /* libObjectiveChipmunk-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 945861B1266F11AD004BEB0C /* libObjectiveChipmunk-iOS.a */; };
+		945861B4266F1218004BEB0C /* libChipmunk-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 945861B2266F11AD004BEB0C /* libChipmunk-iOS.a */; };
+		94586202266F3F94004BEB0C /* Crate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94586201266F3F94004BEB0C /* Crate.m */; };
+		945DF086264E675700D841B6 /* ExplicitAnimationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 945DF085264E675700D841B6 /* ExplicitAnimationDemoVC.m */; };
+		945DF08F264E6C7400D841B6 /* ViewEffectsDemoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 945DF08E264E6C7400D841B6 /* ViewEffectsDemoTools.m */; };
+		9492A697264CFE430045898F /* ReflectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9492A696264CFE430045898F /* ReflectorView.m */; };
+		9492A6A0264D256E0045898F /* ScrollLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9492A69F264D256E0045898F /* ScrollLayerView.m */; };
+		9492A6A4264D5B370045898F /* CoreAnimationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9492A6A3264D5B370045898F /* CoreAnimationDemoVC.m */; };
+		94B16CE5266E1CEE0010A894 /* PhysicalSimVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B16CE4266E1CEE0010A894 /* PhysicalSimVC.m */; };
+		94C3D3B6265E7F62002F3C62 /* CAMediaTimingDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C3D3B5265E7F62002F3C62 /* CAMediaTimingDemoVC.m */; };
 		94C514A424DD031500FA63C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C514A324DD031500FA63C0 /* AppDelegate.m */; };
-		94C514A724DD031500FA63C0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C514A624DD031500FA63C0 /* SceneDelegate.m */; };
 		94C514AA24DD031500FA63C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C514A924DD031500FA63C0 /* ViewController.m */; };
 		94C514AD24DD031500FA63C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C514AB24DD031500FA63C0 /* Main.storyboard */; };
 		94C514AF24DD031800FA63C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C514AE24DD031800FA63C0 /* Assets.xcassets */; };
 		94C514B224DD031800FA63C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C514B024DD031800FA63C0 /* LaunchScreen.storyboard */; };
 		94C514B524DD031800FA63C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C514B424DD031800FA63C0 /* main.m */; };
+		94C514E524DD2A7C00FA63C0 /* BasicAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C514E424DD2A7C00FA63C0 /* BasicAnimationVC.m */; };
+		94C9BD63275E35D400A370BC /* CSJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9BD62275E35D400A370BC /* CSJLabel.m */; };
+		94D0953F26468A800014D73B /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0953E26468A800014D73B /* LayerLabel.m */; };
+		94D09542264691D00014D73B /* TransformLayerDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D09541264691D00014D73B /* TransformLayerDemoVC.m */; };
+		94D0954526491F820014D73B /* ReplicatorLayerDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0954426491F820014D73B /* ReplicatorLayerDemoVC.m */; };
+		94E6E6AA262D733E005AE32D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E6E6A8262D733E005AE32D /* DrawView.m */; };
+		94EEA5BB266767C200D5DF8B /* AnimationBufferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EEA5BA266767C200D5DF8B /* AnimationBufferVC.m */; };
+		B9A86CF1B5B27AB2447DE4F2 /* libPods-ViewEffectsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE745346397A74BAD68858F9 /* libPods-ViewEffectsDemo.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		94C514D524DD058100FA63C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C514CD24DD058100FA63C0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FFED36A657123030ABB700256D73F15;
+			remoteInfo = Masonry;
+		};
+		94C514D724DD058100FA63C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C514CD24DD058100FA63C0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 193867D7B64407AA87A129DFFF91334B;
+			remoteInfo = "masonry+superview";
+		};
+		94C514D924DD058100FA63C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C514CD24DD058100FA63C0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1ECC3A5CBD045EBFD199E50369D7EDB3;
+			remoteInfo = "Pods-ViewEffectsDemo";
+		};
+		94C514DB24DD058100FA63C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C514CD24DD058100FA63C0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9EAFC5A0461442048AD86C7180F3DFB7;
+			remoteInfo = TTSwitch;
+		};
+		94C514DD24DD058100FA63C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C514CD24DD058100FA63C0 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 59584B463EA8B7B9349A4A511FD1D017;
+			remoteInfo = YYImage_MagicNarwhal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2F815EE424A06D9789310ABB /* Pods-ViewEffectsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewEffectsDemo.release.xcconfig"; path = "Target Support Files/Pods-ViewEffectsDemo/Pods-ViewEffectsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6FA5F60C439669AA7B8501F5 /* Pods-ViewEffectsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewEffectsDemo.debug.xcconfig"; path = "Target Support Files/Pods-ViewEffectsDemo/Pods-ViewEffectsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		94004D17263026BB00527460 /* PopupVCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupVCManager.h; sourceTree = "<group>"; };
+		94004D18263026BB00527460 /* PopupVCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupVCManager.m; sourceTree = "<group>"; };
+		945861B1266F11AD004BEB0C /* libObjectiveChipmunk-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libObjectiveChipmunk-iOS.a"; sourceTree = "<group>"; };
+		945861B2266F11AD004BEB0C /* libChipmunk-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iOS.a"; sourceTree = "<group>"; };
+		945861D0266F18BD004BEB0C /* cpPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyline.h; sourceTree = "<group>"; };
+		945861D1266F18BD004BEB0C /* cpMarch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpMarch.h; sourceTree = "<group>"; };
+		945861D2266F18BD004BEB0C /* cpTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpTransform.h; sourceTree = "<group>"; };
+		945861D4266F18BD004BEB0C /* ChipmunkTileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkTileCache.h; sourceTree = "<group>"; };
+		945861D5266F18BD004BEB0C /* ChipmunkConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkConstraint.h; sourceTree = "<group>"; };
+		945861D6266F18BD004BEB0C /* ChipmunkBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkBody.h; sourceTree = "<group>"; };
+		945861D7266F18BD004BEB0C /* ChipmunkAutoGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkAutoGeometry.h; sourceTree = "<group>"; };
+		945861D8266F18BD004BEB0C /* ChipmunkMultiGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkMultiGrab.h; sourceTree = "<group>"; };
+		945861D9266F18BD004BEB0C /* ChipmunkPointCloudSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkPointCloudSampler.h; sourceTree = "<group>"; };
+		945861DA266F18BD004BEB0C /* ChipmunkShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkShape.h; sourceTree = "<group>"; };
+		945861DB266F18BD004BEB0C /* ObjectiveChipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveChipmunk.h; sourceTree = "<group>"; };
+		945861DC266F18BD004BEB0C /* ChipmunkSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkSpace.h; sourceTree = "<group>"; };
+		945861DD266F18BD004BEB0C /* ChipmunkImageSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkImageSampler.h; sourceTree = "<group>"; };
+		945861DE266F18BD004BEB0C /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		945861DF266F18BD004BEB0C /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		945861E0266F18BD004BEB0C /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		945861E1266F18BD004BEB0C /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		945861E2266F18BD004BEB0C /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		945861E3266F18BD004BEB0C /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		945861E4266F18BD004BEB0C /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		945861E5266F18BD004BEB0C /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		945861E6266F18BD004BEB0C /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		945861E7266F18BD004BEB0C /* cpHastySpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpHastySpace.h; sourceTree = "<group>"; };
+		945861E8266F18BD004BEB0C /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		945861E9266F18BD004BEB0C /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		945861EA266F18BD004BEB0C /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		945861EB266F18BD004BEB0C /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		945861EC266F18BD004BEB0C /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		945861ED266F18BD004BEB0C /* chipmunk_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_structs.h; sourceTree = "<group>"; };
+		945861EE266F18BD004BEB0C /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		945861EF266F18BD004BEB0C /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		945861F0266F18BD004BEB0C /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		945861F1266F18BD004BEB0C /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		945861F2266F18BD004BEB0C /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		945861F3266F18BD004BEB0C /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		945861F4266F18BD004BEB0C /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		945861F5266F18BD004BEB0C /* cpRobust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRobust.h; sourceTree = "<group>"; };
+		945861F6266F18BD004BEB0C /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		945861F7266F18BD004BEB0C /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		945861F8266F18BD004BEB0C /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		94586200266F3F94004BEB0C /* Crate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crate.h; sourceTree = "<group>"; };
+		94586201266F3F94004BEB0C /* Crate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crate.m; sourceTree = "<group>"; };
+		945DF084264E675700D841B6 /* ExplicitAnimationDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationDemoVC.h; sourceTree = "<group>"; };
+		945DF085264E675700D841B6 /* ExplicitAnimationDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationDemoVC.m; sourceTree = "<group>"; };
+		945DF08D264E6C7400D841B6 /* ViewEffectsDemoTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewEffectsDemoTools.h; sourceTree = "<group>"; };
+		945DF08E264E6C7400D841B6 /* ViewEffectsDemoTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewEffectsDemoTools.m; sourceTree = "<group>"; };
+		9492A695264CFE430045898F /* ReflectorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectorView.h; sourceTree = "<group>"; };
+		9492A696264CFE430045898F /* ReflectorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectorView.m; sourceTree = "<group>"; };
+		9492A69E264D256E0045898F /* ScrollLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollLayerView.h; sourceTree = "<group>"; };
+		9492A69F264D256E0045898F /* ScrollLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollLayerView.m; sourceTree = "<group>"; };
+		9492A6A2264D5B370045898F /* CoreAnimationDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAnimationDemoVC.h; sourceTree = "<group>"; };
+		9492A6A3264D5B370045898F /* CoreAnimationDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationDemoVC.m; sourceTree = "<group>"; };
+		94B16CE3266E1CEE0010A894 /* PhysicalSimVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicalSimVC.h; sourceTree = "<group>"; };
+		94B16CE4266E1CEE0010A894 /* PhysicalSimVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicalSimVC.m; sourceTree = "<group>"; };
+		94C3D3B4265E7F62002F3C62 /* CAMediaTimingDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMediaTimingDemoVC.h; sourceTree = "<group>"; };
+		94C3D3B5265E7F62002F3C62 /* CAMediaTimingDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMediaTimingDemoVC.m; sourceTree = "<group>"; };
 		94C5149F24DD031500FA63C0 /* ViewEffectsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewEffectsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C514A224DD031500FA63C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94C514A324DD031500FA63C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94C514A524DD031500FA63C0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		94C514A624DD031500FA63C0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		94C514A824DD031500FA63C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94C514A924DD031500FA63C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94C514AC24DD031500FA63C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +145,22 @@
 		94C514B124DD031800FA63C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94C514B324DD031800FA63C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C514B424DD031800FA63C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94C514CD24DD058100FA63C0 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		94C514E324DD2A7C00FA63C0 /* BasicAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimationVC.h; sourceTree = "<group>"; };
+		94C514E424DD2A7C00FA63C0 /* BasicAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationVC.m; sourceTree = "<group>"; };
+		94C9BD61275E35D400A370BC /* CSJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJLabel.h; sourceTree = "<group>"; };
+		94C9BD62275E35D400A370BC /* CSJLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJLabel.m; sourceTree = "<group>"; };
+		94D0953D26468A800014D73B /* LayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		94D0953E26468A800014D73B /* LayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
+		94D09540264691D00014D73B /* TransformLayerDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformLayerDemoVC.h; sourceTree = "<group>"; };
+		94D09541264691D00014D73B /* TransformLayerDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformLayerDemoVC.m; sourceTree = "<group>"; };
+		94D0954326491F820014D73B /* ReplicatorLayerDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerDemoVC.h; sourceTree = "<group>"; };
+		94D0954426491F820014D73B /* ReplicatorLayerDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerDemoVC.m; sourceTree = "<group>"; };
+		94E6E6A8262D733E005AE32D /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawView.m; path = ViewEffectsDemo/DrawView.m; sourceTree = SOURCE_ROOT; };
+		94E6E6A9262D733E005AE32D /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawView.h; path = ViewEffectsDemo/DrawView.h; sourceTree = SOURCE_ROOT; };
+		94EEA5B9266767C200D5DF8B /* AnimationBufferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationBufferVC.h; sourceTree = "<group>"; };
+		94EEA5BA266767C200D5DF8B /* AnimationBufferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationBufferVC.m; sourceTree = "<group>"; };
+		FE745346397A74BAD68858F9 /* libPods-ViewEffectsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewEffectsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +168,153 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A86CF1B5B27AB2447DE4F2 /* libPods-ViewEffectsDemo.a in Frameworks */,
+				945861B3266F1215004BEB0C /* libObjectiveChipmunk-iOS.a in Frameworks */,
+				945861B4266F1218004BEB0C /* libChipmunk-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94004D102630268100527460 /* PopupVCManager */ = {
+			isa = PBXGroup;
+			children = (
+				94004D17263026BB00527460 /* PopupVCManager.h */,
+				94004D18263026BB00527460 /* PopupVCManager.m */,
+			);
+			path = PopupVCManager;
+			sourceTree = "<group>";
+		};
+		9458618F266F11AD004BEB0C /* thirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				94586190266F11AD004BEB0C /* chipmunk */,
+			);
+			path = thirdPart;
+			sourceTree = "<group>";
+		};
+		94586190266F11AD004BEB0C /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				945861CE266F18BD004BEB0C /* include */,
+				945861B0266F11AD004BEB0C /* lib */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		945861B0266F11AD004BEB0C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				945861B1266F11AD004BEB0C /* libObjectiveChipmunk-iOS.a */,
+				945861B2266F11AD004BEB0C /* libChipmunk-iOS.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		945861CE266F18BD004BEB0C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				945861CF266F18BD004BEB0C /* chipmunk */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		945861CF266F18BD004BEB0C /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				945861D0266F18BD004BEB0C /* cpPolyline.h */,
+				945861D1266F18BD004BEB0C /* cpMarch.h */,
+				945861D2266F18BD004BEB0C /* cpTransform.h */,
+				945861D3266F18BD004BEB0C /* ObjectiveChipmunk */,
+				945861DE266F18BD004BEB0C /* cpBB.h */,
+				945861DF266F18BD004BEB0C /* cpArbiter.h */,
+				945861E0266F18BD004BEB0C /* cpConstraint.h */,
+				945861E1266F18BD004BEB0C /* cpPolyShape.h */,
+				945861E2266F18BD004BEB0C /* chipmunk.h */,
+				945861E3266F18BD004BEB0C /* cpDampedSpring.h */,
+				945861E4266F18BD004BEB0C /* cpRotaryLimitJoint.h */,
+				945861E5266F18BD004BEB0C /* cpSpatialIndex.h */,
+				945861E6266F18BD004BEB0C /* cpSimpleMotor.h */,
+				945861E7266F18BD004BEB0C /* cpHastySpace.h */,
+				945861E8266F18BD004BEB0C /* chipmunk_private.h */,
+				945861E9266F18BD004BEB0C /* cpRatchetJoint.h */,
+				945861EA266F18BD004BEB0C /* cpSlideJoint.h */,
+				945861EB266F18BD004BEB0C /* cpVect.h */,
+				945861EC266F18BD004BEB0C /* cpSpace.h */,
+				945861ED266F18BD004BEB0C /* chipmunk_structs.h */,
+				945861EE266F18BD004BEB0C /* cpDampedRotarySpring.h */,
+				945861EF266F18BD004BEB0C /* chipmunk_types.h */,
+				945861F0266F18BD004BEB0C /* cpGearJoint.h */,
+				945861F1266F18BD004BEB0C /* cpGrooveJoint.h */,
+				945861F2266F18BD004BEB0C /* cpShape.h */,
+				945861F3266F18BD004BEB0C /* cpPivotJoint.h */,
+				945861F4266F18BD004BEB0C /* cpPinJoint.h */,
+				945861F5266F18BD004BEB0C /* cpRobust.h */,
+				945861F6266F18BD004BEB0C /* cpBody.h */,
+				945861F7266F18BD004BEB0C /* chipmunk_unsafe.h */,
+				945861F8266F18BD004BEB0C /* chipmunk_ffi.h */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		945861D3266F18BD004BEB0C /* ObjectiveChipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				945861D4266F18BD004BEB0C /* ChipmunkTileCache.h */,
+				945861D5266F18BD004BEB0C /* ChipmunkConstraint.h */,
+				945861D6266F18BD004BEB0C /* ChipmunkBody.h */,
+				945861D7266F18BD004BEB0C /* ChipmunkAutoGeometry.h */,
+				945861D8266F18BD004BEB0C /* ChipmunkMultiGrab.h */,
+				945861D9266F18BD004BEB0C /* ChipmunkPointCloudSampler.h */,
+				945861DA266F18BD004BEB0C /* ChipmunkShape.h */,
+				945861DB266F18BD004BEB0C /* ObjectiveChipmunk.h */,
+				945861DC266F18BD004BEB0C /* ChipmunkSpace.h */,
+				945861DD266F18BD004BEB0C /* ChipmunkImageSampler.h */,
+			);
+			path = ObjectiveChipmunk;
+			sourceTree = "<group>";
+		};
+		9492A6A1264D5B090045898F /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9492A6A2264D5B370045898F /* CoreAnimationDemoVC.h */,
+				9492A6A3264D5B370045898F /* CoreAnimationDemoVC.m */,
+				945DF084264E675700D841B6 /* ExplicitAnimationDemoVC.h */,
+				945DF085264E675700D841B6 /* ExplicitAnimationDemoVC.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		94B16CE2266E1CB70010A894 /* PhysicalSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				94B16CE3266E1CEE0010A894 /* PhysicalSimVC.h */,
+				94B16CE4266E1CEE0010A894 /* PhysicalSimVC.m */,
+				94586200266F3F94004BEB0C /* Crate.h */,
+				94586201266F3F94004BEB0C /* Crate.m */,
+			);
+			path = PhysicalSimulator;
+			sourceTree = "<group>";
+		};
+		94C3D3AD265E7F30002F3C62 /* CATiming */ = {
+			isa = PBXGroup;
+			children = (
+				94C3D3B4265E7F62002F3C62 /* CAMediaTimingDemoVC.h */,
+				94C3D3B5265E7F62002F3C62 /* CAMediaTimingDemoVC.m */,
+			);
+			path = CATiming;
+			sourceTree = "<group>";
+		};
 		94C5149624DD031500FA63C0 = {
 			isa = PBXGroup;
 			children = (
+				9458618F266F11AD004BEB0C /* thirdPart */,
+				94C514CD24DD058100FA63C0 /* Pods.xcodeproj */,
 				94C514A124DD031500FA63C0 /* ViewEffectsDemo */,
 				94C514A024DD031500FA63C0 /* Products */,
+				C67F7EE612C2ECF73FD6E675 /* Pods */,
+				D8CBA8C28B93D80CA7F973A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +329,17 @@
 		94C514A124DD031500FA63C0 /* ViewEffectsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				94C9BD5A275E357F00A370BC /* UIKit */,
+				94B16CE2266E1CB70010A894 /* PhysicalSimulator */,
+				94EEA5B22667679E00D5DF8B /* AniBuffer */,
+				94C3D3AD265E7F30002F3C62 /* CATiming */,
+				9492A6A1264D5B090045898F /* CoreAnimation */,
+				94D0953626468A4D0014D73B /* CALayers */,
+				94004D102630268100527460 /* PopupVCManager */,
+				94E6E6A1262D731C005AE32D /* Draw */,
+				94C514DF24DD25B100FA63C0 /* BasicAnimation */,
 				94C514A224DD031500FA63C0 /* AppDelegate.h */,
 				94C514A324DD031500FA63C0 /* AppDelegate.m */,
-				94C514A524DD031500FA63C0 /* SceneDelegate.h */,
-				94C514A624DD031500FA63C0 /* SceneDelegate.m */,
 				94C514A824DD031500FA63C0 /* ViewController.h */,
 				94C514A924DD031500FA63C0 /* ViewController.m */,
 				94C514AB24DD031500FA63C0 /* Main.storyboard */,
@@ -72,8 +347,92 @@
 				94C514B024DD031800FA63C0 /* LaunchScreen.storyboard */,
 				94C514B324DD031800FA63C0 /* Info.plist */,
 				94C514B424DD031800FA63C0 /* main.m */,
+				945DF08D264E6C7400D841B6 /* ViewEffectsDemoTools.h */,
+				945DF08E264E6C7400D841B6 /* ViewEffectsDemoTools.m */,
 			);
 			path = ViewEffectsDemo;
+			sourceTree = "<group>";
+		};
+		94C514CE24DD058100FA63C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C514D624DD058100FA63C0 /* libMasonry.a */,
+				94C514D824DD058100FA63C0 /* libmasonry+superview.a */,
+				94C514DA24DD058100FA63C0 /* libPods-ViewEffectsDemo.a */,
+				94C514DC24DD058100FA63C0 /* libTTSwitch.a */,
+				94C514DE24DD058100FA63C0 /* libYYImage_MagicNarwhal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C514DF24DD25B100FA63C0 /* BasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				94C514E324DD2A7C00FA63C0 /* BasicAnimationVC.h */,
+				94C514E424DD2A7C00FA63C0 /* BasicAnimationVC.m */,
+			);
+			path = BasicAnimation;
+			sourceTree = "<group>";
+		};
+		94C9BD5A275E357F00A370BC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				94C9BD61275E35D400A370BC /* CSJLabel.h */,
+				94C9BD62275E35D400A370BC /* CSJLabel.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		94D0953626468A4D0014D73B /* CALayers */ = {
+			isa = PBXGroup;
+			children = (
+				94D0953D26468A800014D73B /* LayerLabel.h */,
+				94D0953E26468A800014D73B /* LayerLabel.m */,
+				94D09540264691D00014D73B /* TransformLayerDemoVC.h */,
+				94D09541264691D00014D73B /* TransformLayerDemoVC.m */,
+				94D0954326491F820014D73B /* ReplicatorLayerDemoVC.h */,
+				94D0954426491F820014D73B /* ReplicatorLayerDemoVC.m */,
+				9492A695264CFE430045898F /* ReflectorView.h */,
+				9492A696264CFE430045898F /* ReflectorView.m */,
+				9492A69E264D256E0045898F /* ScrollLayerView.h */,
+				9492A69F264D256E0045898F /* ScrollLayerView.m */,
+			);
+			path = CALayers;
+			sourceTree = "<group>";
+		};
+		94E6E6A1262D731C005AE32D /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				94E6E6A9262D733E005AE32D /* DrawView.h */,
+				94E6E6A8262D733E005AE32D /* DrawView.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		94EEA5B22667679E00D5DF8B /* AniBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				94EEA5B9266767C200D5DF8B /* AnimationBufferVC.h */,
+				94EEA5BA266767C200D5DF8B /* AnimationBufferVC.m */,
+			);
+			path = AniBuffer;
+			sourceTree = "<group>";
+		};
+		C67F7EE612C2ECF73FD6E675 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA5F60C439669AA7B8501F5 /* Pods-ViewEffectsDemo.debug.xcconfig */,
+				2F815EE424A06D9789310ABB /* Pods-ViewEffectsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8CBA8C28B93D80CA7F973A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE745346397A74BAD68858F9 /* libPods-ViewEffectsDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94C514B824DD031800FA63C0 /* Build configuration list for PBXNativeTarget "ViewEffectsDemo" */;
 			buildPhases = (
+				6298972359983714A96EAF3E /* [CP] Check Pods Manifest.lock */,
 				94C5149B24DD031500FA63C0 /* Sources */,
 				94C5149C24DD031500FA63C0 /* Frameworks */,
 				94C5149D24DD031500FA63C0 /* Resources */,
+				6EC74E5758EC763B20B078B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,12 +482,56 @@
 			mainGroup = 94C5149624DD031500FA63C0;
 			productRefGroup = 94C514A024DD031500FA63C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 94C514CE24DD058100FA63C0 /* Products */;
+					ProjectRef = 94C514CD24DD058100FA63C0 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				94C5149E24DD031500FA63C0 /* ViewEffectsDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		94C514D624DD058100FA63C0 /* libMasonry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMasonry.a;
+			remoteRef = 94C514D524DD058100FA63C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C514D824DD058100FA63C0 /* libmasonry+superview.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmasonry+superview.a";
+			remoteRef = 94C514D724DD058100FA63C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C514DA24DD058100FA63C0 /* libPods-ViewEffectsDemo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-ViewEffectsDemo.a";
+			remoteRef = 94C514D924DD058100FA63C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C514DC24DD058100FA63C0 /* libTTSwitch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTTSwitch.a;
+			remoteRef = 94C514DB24DD058100FA63C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C514DE24DD058100FA63C0 /* libYYImage_MagicNarwhal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYYImage_MagicNarwhal.a;
+			remoteRef = 94C514DD24DD058100FA63C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		94C5149D24DD031500FA63C0 /* Resources */ = {
@@ -141,15 +546,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6298972359983714A96EAF3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewEffectsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC74E5758EC763B20B078B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViewEffectsDemo/Pods-ViewEffectsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViewEffectsDemo/Pods-ViewEffectsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViewEffectsDemo/Pods-ViewEffectsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94C5149B24DD031500FA63C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				94C514AA24DD031500FA63C0 /* ViewController.m in Sources */,
+				94EEA5BB266767C200D5DF8B /* AnimationBufferVC.m in Sources */,
+				945DF08F264E6C7400D841B6 /* ViewEffectsDemoTools.m in Sources */,
+				94D09542264691D00014D73B /* TransformLayerDemoVC.m in Sources */,
+				94D0954526491F820014D73B /* ReplicatorLayerDemoVC.m in Sources */,
+				94C3D3B6265E7F62002F3C62 /* CAMediaTimingDemoVC.m in Sources */,
 				94C514A424DD031500FA63C0 /* AppDelegate.m in Sources */,
+				94E6E6AA262D733E005AE32D /* DrawView.m in Sources */,
 				94C514B524DD031800FA63C0 /* main.m in Sources */,
-				94C514A724DD031500FA63C0 /* SceneDelegate.m in Sources */,
+				945DF086264E675700D841B6 /* ExplicitAnimationDemoVC.m in Sources */,
+				94C9BD63275E35D400A370BC /* CSJLabel.m in Sources */,
+				94D0953F26468A800014D73B /* LayerLabel.m in Sources */,
+				94C514E524DD2A7C00FA63C0 /* BasicAnimationVC.m in Sources */,
+				94004D19263026BB00527460 /* PopupVCManager.m in Sources */,
+				9492A6A4264D5B370045898F /* CoreAnimationDemoVC.m in Sources */,
+				9492A697264CFE430045898F /* ReflectorView.m in Sources */,
+				94586202266F3F94004BEB0C /* Crate.m in Sources */,
+				94B16CE5266E1CEE0010A894 /* PhysicalSimVC.m in Sources */,
+				9492A6A0264D256E0045898F /* ScrollLayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +751,30 @@
 		};
 		94C514B924DD031800FA63C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA5F60C439669AA7B8501F5 /* Pods-ViewEffectsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHIPMUNK_ROOT = /Users/zhongxiuhao/OwnSpace/ProjectMine/iOSViewEffect/ViewEffectsDemo/thirdPart/chipmunk;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUQ9G4RYH7;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/TTSwitch\"",
+					"\"${PODS_ROOT}/Headers/Public/YYImage_MagicNarwhal\"",
+					"\"${PODS_ROOT}/Headers/Public/masonry+superview\"",
+					"\"${CHIPMUNK_ROOT}/include/\"",
+					"\"${CHIPMUNK_ROOT}/include/chipmunk\"",
+				);
 				INFOPLIST_FILE = ViewEffectsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdPart/chipmunk/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zzz.ViewEffectsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,14 +784,29 @@
 		};
 		94C514BA24DD031800FA63C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F815EE424A06D9789310ABB /* Pods-ViewEffectsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CHIPMUNK_ROOT = /Users/zhongxiuhao/OwnSpace/ProjectMine/iOSViewEffect/ViewEffectsDemo/thirdPart/chipmunk;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUQ9G4RYH7;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/TTSwitch\"",
+					"\"${PODS_ROOT}/Headers/Public/YYImage_MagicNarwhal\"",
+					"\"${PODS_ROOT}/Headers/Public/masonry+superview\"",
+					"\"${CHIPMUNK_RPPT}/include/chipmunk\"",
+				);
 				INFOPLIST_FILE = ViewEffectsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdPart/chipmunk/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zzz.ViewEffectsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

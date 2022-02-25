@@ -1,0 +1,34 @@
+PODS:
+  - LookinServer (1.0.0)
+  - Masonry (1.1.0)
+  - "masonry+superview (0.2.0)":
+    - Masonry
+  - TTSwitch (0.0.6)
+  - YYImage_MagicNarwhal (1.0.8):
+    - YYImage_MagicNarwhal/Core (= 1.0.8)
+  - YYImage_MagicNarwhal/Core (1.0.8)
+
+DEPENDENCIES:
+  - LookinServer
+  - "masonry+superview (~> 0.2.0)"
+  - TTSwitch (~> 0.0.6)
+  - YYImage_MagicNarwhal (~> 1.0.8)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+    - Masonry
+    - "masonry+superview"
+    - TTSwitch
+    - YYImage_MagicNarwhal
+
+SPEC CHECKSUMS:
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  "masonry+superview": 4c3409f69bdb820d1d74506b53e9011c449b737a
+  TTSwitch: fef67a32dbd75e6981a3d27a7e954728e537de50
+  YYImage_MagicNarwhal: 79782e4acd91f321a1e37368ea0a5d948489e80b
+
+PODFILE CHECKSUM: acd13d4dff82ce3efd76924a8d9f38d5ac00bfd4
+
+COCOAPODS: 1.9.3
