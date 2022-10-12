@@ -105,18 +105,6 @@
     
     //[self showScroll];
     
-    CSJLabel *csjLbl = [CSJLabel new];
-    [self.view addSubview:csjLbl];
-    NSString *textStr = @"绘制绘制绘制绘制绘制绘制";
-    csjLbl.text = textStr;
-    
-    CGSize textSize = [textStr boundingRectWithSize:CGSizeMake(MAXFLOAT, 30) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20]} context:nil].size;
-    
-    [csjLbl mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(100);
-        make.left.mas_equalTo(100);
-        make.size.mas_equalTo(CGSizeMake(textSize.width, textSize.height + 1));
-    }];
 }
 
 - (void)initUI {
